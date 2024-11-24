@@ -14,7 +14,7 @@ Examples of application fields of Jupiter System are:
 - Test benches,
 - Etc…
 
-![Concpet_Rpi](https://github.com/user-attachments/assets/4f50c7ee-99d1-4e0b-86d8-68531f1a7dc0)
+![Concpet_Rpi](https://github.com/user-attachments/assets/4f50c7ee-99d1-4e0b-86d8-68531f1a7dc0)[youtube.com/watch?v=70Tqia20eaI](https://www.youtube.com/watch?v=70Tqia20eaI)
 
 [youtube.com/watch?v=70Tqia20eaI](https://www.youtube.com/watch?v=70Tqia20eaI)
 
