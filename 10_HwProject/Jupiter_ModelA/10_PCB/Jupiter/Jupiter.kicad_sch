@@ -1,0 +1,183 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 61a72983-2dbb-4e17-9576-0e97b13cc40f)
+
+  (paper "A4")
+
+  (title_block
+    (title "Jupiter Model A")
+    (date "2020-05-23")
+    (rev "0.1")
+    (company "Francesco Ficili")
+  )
+
+  (lib_symbols
+  )
+
+
+  (polyline (pts (xy 41.275 17.78) (xy 41.275 43.18))
+    (stroke (width 0) (type default))
+    (uuid 07a8e4de-fd26-4e06-a79e-4a758c1d1b1a)
+  )
+  (polyline (pts (xy 252.73 43.18) (xy 252.73 17.78))
+    (stroke (width 0) (type default))
+    (uuid 6c3e9673-1af9-4453-826e-29902d36c0c7)
+  )
+  (polyline (pts (xy 252.73 17.78) (xy 41.275 17.78))
+    (stroke (width 0) (type default))
+    (uuid 94d6f793-3d73-47ca-b0f7-f477cdeb6444)
+  )
+  (polyline (pts (xy 41.275 43.18) (xy 252.73 43.18))
+    (stroke (width 0) (type default))
+    (uuid eb62d4db-d948-443a-a341-e3d61b7a6a42)
+  )
+
+  (text "JUPITER SYSTEM" (at 115.57 30.48 0)
+    (effects (font (size 5.0038 5.0038) (thickness 1.0008) bold) (justify left bottom))
+    (uuid 52f6493b-0046-46bd-a4cd-1f9b6d5edfd9)
+  )
+  (text "JUPITER MODEL A" (at 120.015 38.1 0)
+    (effects (font (size 3.9878 3.9878)) (justify left bottom))
+    (uuid afed14d5-0e19-499b-af2f-ef8e532d8caf)
+  )
+
+  (sheet (at 41.91 57.785) (size 43.18 12.7) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005ec81226)
+    (property "Sheetname" "Power_Reg" (at 41.91 57.0734 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power_Reg.kicad_sch" (at 41.91 71.0696 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Jupiter"
+        (path "/61a72983-2dbb-4e17-9576-0e97b13cc40f" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 41.91 75.565) (size 43.18 12.7) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005ec81282)
+    (property "Sheetname" "CM_Power" (at 41.91 74.8534 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "CM_Power.kicad_sch" (at 41.91 88.8496 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Jupiter"
+        (path "/61a72983-2dbb-4e17-9576-0e97b13cc40f" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 41.91 93.345) (size 43.18 12.7) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005ec8132f)
+    (property "Sheetname" "SD_Card" (at 41.91 92.6334 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "SD_Card.kicad_sch" (at 41.91 106.6296 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Jupiter"
+        (path "/61a72983-2dbb-4e17-9576-0e97b13cc40f" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 41.91 112.395) (size 43.18 12.7) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005ec814be)
+    (property "Sheetname" "HDMI" (at 41.91 111.6834 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "HDMI.kicad_sch" (at 41.91 125.6796 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Jupiter"
+        (path "/61a72983-2dbb-4e17-9576-0e97b13cc40f" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 92.075 57.785) (size 43.18 12.7) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005ec81532)
+    (property "Sheetname" "USB_Wifi" (at 92.075 57.0734 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "USB_Wifi.kicad_sch" (at 92.075 71.0696 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Jupiter"
+        (path "/61a72983-2dbb-4e17-9576-0e97b13cc40f" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 92.075 75.565) (size 43.18 12.7) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005ec815d4)
+    (property "Sheetname" "Cam_Dis" (at 92.075 74.8534 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Cam_Dis.kicad_sch" (at 92.075 88.8496 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Jupiter"
+        (path "/61a72983-2dbb-4e17-9576-0e97b13cc40f" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 92.075 93.345) (size 43.18 12.7) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005ec81657)
+    (property "Sheetname" "MikroBus_Exp" (at 92.075 92.6334 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MikroBus_Exp.kicad_sch" (at 92.075 106.6296 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Jupiter"
+        (path "/61a72983-2dbb-4e17-9576-0e97b13cc40f" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 92.71 112.395) (size 42.545 12.7) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005fc7a06b)
+    (property "Sheetname" "Expansions" (at 92.71 111.6834 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Expansions.kicad_sch" (at 92.71 125.6796 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Jupiter"
+        (path "/61a72983-2dbb-4e17-9576-0e97b13cc40f" (page "9"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

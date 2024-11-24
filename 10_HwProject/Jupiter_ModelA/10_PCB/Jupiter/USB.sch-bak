@@ -1,0 +1,30 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RPi_CM:Board_RPi_CM3lite_200pConnector_multipart MD?
+U 2 1 5ECB18C1
+P 2100 1700
+F 0 "MD?" H 2183 2075 50  0000 C CNN
+F 1 "Board_RPi_CM3lite_200pConnector_multipart" H 2183 1984 50  0000 C CNN
+F 2 "_" H 8075 -1150 10  0001 C CNN
+F 3 "_" H 8075 -1150 10  0001 C CNN
+F 4 "_" H 8075 -1150 10  0001 C CNN "Manf#"
+F 5 "_" H 8075 -1150 10  0001 C CNN "Manf"
+F 6 "_" H 8075 -1150 10  0001 C CNN "Optn"
+	2    2100 1700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

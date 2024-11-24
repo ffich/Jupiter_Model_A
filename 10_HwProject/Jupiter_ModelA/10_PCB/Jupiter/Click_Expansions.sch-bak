@@ -1,0 +1,30 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 9
+Title "Jupiter Model A"
+Date "2020-05-23"
+Rev "0.1"
+Comp "Francesco Ficili"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RPi_CM:Board_RPi_CM3lite_200pConnector_multipart MD?
+U 6 1 5ECBE940
+P 2200 2700
+F 0 "MD?" H 2200 4575 50  0000 C CNN
+F 1 "Board_RPi_CM3lite_200pConnector_multipart" H 2200 4484 50  0000 C CNN
+F 2 "_" H 8175 -150 10  0001 C CNN
+F 3 "_" H 8175 -150 10  0001 C CNN
+F 4 "_" H 8175 -150 10  0001 C CNN "Manf#"
+F 5 "_" H 8175 -150 10  0001 C CNN "Manf"
+F 6 "_" H 8175 -150 10  0001 C CNN "Optn"
+	6    2200 2700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

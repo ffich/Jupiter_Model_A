@@ -1,0 +1,407 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 9
+Title "Jupiter Model A"
+Date "2020-05-23"
+Rev "0.1"
+Comp "Francesco Ficili"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RPi_CM:Board_RPi_CM3lite_200pConnector_multipart MD1
+U 3 1 5ECB5B0C
+P 2150 2550
+F 0 "MD1" H 2233 3975 50  0000 C CNN
+F 1 "RPi Compute Module" H 2233 3884 50  0000 C CNN
+F 2 "RPi_CM:Conn_TE-DDR2-SODIMM-0.6-200P-doublesided" H 8125 -300 10  0001 C CNN
+F 3 "_" H 8125 -300 10  0001 C CNN
+F 4 "TE-DDR2-SODIMM-0.6-200P-doublesided" H 8125 -300 10  0001 C CNN "Manf#"
+F 5 "SODIMM 200" H 8125 -300 10  0001 C CNN "Manf"
+F 6 "_" H 8125 -300 10  0001 C CNN "Optn"
+	3    2150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L RPi_CM:Board_RPi_CM3lite_200pConnector_multipart MD1
+U 5 1 5ECB9EE4
+P 2150 5850
+F 0 "MD1" H 2150 6825 50  0000 C CNN
+F 1 "RPi Compute Module" H 2150 6734 50  0000 C CNN
+F 2 "RPi_CM:Conn_TE-DDR2-SODIMM-0.6-200P-doublesided" H 8125 3000 10  0001 C CNN
+F 3 "_" H 8125 3000 10  0001 C CNN
+F 4 "TE-DDR2-SODIMM-0.6-200P-doublesided" H 8125 3000 10  0001 C CNN "Manf#"
+F 5 "SODIMM 200" H 8125 3000 10  0001 C CNN "Manf"
+F 6 "_" H 8125 3000 10  0001 C CNN "Optn"
+	5    2150 5850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3000 1350
+NoConn ~ 3000 1500
+NoConn ~ 3000 1650
+NoConn ~ 3000 1800
+NoConn ~ 3000 1950
+NoConn ~ 3000 2100
+Text Label 3175 2550 0    50   ~ 0
+CAM1_CLK_N
+Text Label 3175 2400 0    50   ~ 0
+CAM1_CLK_P
+Text Label 3175 2850 0    50   ~ 0
+CAM1_D0_N
+Text Label 3175 2700 0    50   ~ 0
+CAM1_D0_P
+Text Label 3175 3150 0    50   ~ 0
+CAM1_D1_N
+Text Label 3175 3000 0    50   ~ 0
+CAM1_D1_P
+NoConn ~ 3000 3300
+NoConn ~ 3000 3450
+NoConn ~ 3000 3600
+NoConn ~ 3000 3750
+Wire Wire Line
+	3000 2400 3175 2400
+Wire Wire Line
+	3000 2550 3175 2550
+Wire Wire Line
+	3000 2700 3175 2700
+Wire Wire Line
+	3000 2850 3175 2850
+Wire Wire Line
+	3000 3000 3175 3000
+Wire Wire Line
+	3000 3150 3175 3150
+Wire Wire Line
+	5300 2275 5150 2275
+Wire Wire Line
+	5300 2575 5150 2575
+Wire Wire Line
+	5300 2875 5150 2875
+Wire Wire Line
+	5300 3175 5150 3175
+$Comp
+L power:GND #PWR059
+U 1 1 5F011DD5
+P 5150 3325
+F 0 "#PWR059" H 5150 3075 50  0001 C CNN
+F 1 "GND" H 5155 3152 50  0000 C CNN
+F 2 "" H 5150 3325 50  0001 C CNN
+F 3 "" H 5150 3325 50  0001 C CNN
+	1    5150 3325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2275 5150 2575
+Wire Wire Line
+	5150 2575 5150 2875
+Connection ~ 5150 2575
+Wire Wire Line
+	5150 2875 5150 3175
+Connection ~ 5150 2875
+Connection ~ 5150 3175
+Text Label 4875 1975 2    50   ~ 0
+CAM1_SCL
+Text Label 4875 1875 2    50   ~ 0
+CAM1_SDA
+Text Label 4875 2075 2    50   ~ 0
+CAM1_IO1
+Text Label 4875 2175 2    50   ~ 0
+CAM1_IO0
+Text GLabel 8100 1475 0    39   Input ~ 0
+3V3
+Text Label 8425 1475 0    39   ~ 0
+3V3
+Wire Wire Line
+	8100 1475 8425 1475
+Wire Notes Line
+	7500 975  7500 1950
+Wire Notes Line
+	7500 1950 8975 1950
+Wire Notes Line
+	8975 1950 8975 975 
+Wire Notes Line
+	8975 975  7500 975 
+Text Notes 7500 925  0    118  ~ 0
+Power Lbl.
+Text Label 5150 1575 1    39   ~ 0
+3V3
+Wire Wire Line
+	5300 1775 5150 1775
+Wire Wire Line
+	5150 1775 5150 1575
+Wire Wire Line
+	5300 1875 4875 1875
+Wire Wire Line
+	5300 1975 4875 1975
+Wire Wire Line
+	5300 2075 4875 2075
+Wire Wire Line
+	5300 2175 4875 2175
+Text Label 4875 2475 2    50   ~ 0
+CAM1_CLK_N
+Text Label 4875 2375 2    50   ~ 0
+CAM1_CLK_P
+Text Label 4875 2775 2    50   ~ 0
+CAM1_D1_N
+Text Label 4875 2675 2    50   ~ 0
+CAM1_D1_P
+Text Label 4875 3075 2    50   ~ 0
+CAM1_D0_N
+Text Label 4875 2975 2    50   ~ 0
+CAM1_D0_P
+Wire Wire Line
+	5300 2375 4875 2375
+Wire Wire Line
+	5300 2475 4875 2475
+Wire Wire Line
+	5300 2675 4875 2675
+Wire Wire Line
+	5300 2775 4875 2775
+Wire Wire Line
+	5300 2975 4875 2975
+Wire Wire Line
+	5300 3075 4875 3075
+NoConn ~ 1300 5100
+NoConn ~ 1300 5250
+NoConn ~ 1300 5400
+NoConn ~ 1300 5550
+NoConn ~ 1300 5700
+NoConn ~ 1300 5850
+$Comp
+L Device:C C25
+U 1 1 5F030200
+P 6050 2600
+F 0 "C25" H 6165 2646 50  0000 L CNN
+F 1 "10uF" H 6165 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6088 2450 50  0001 C CNN
+F 3 "~" H 6050 2600 50  0001 C CNN
+F 4 "1206_C" H 6050 2600 50  0001 C CNN "Manf"
+	1    6050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C26
+U 1 1 5F030BDE
+P 6525 2600
+F 0 "C26" H 6640 2646 50  0000 L CNN
+F 1 "100nF" H 6640 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6563 2450 50  0001 C CNN
+F 3 "~" H 6525 2600 50  0001 C CNN
+F 4 "0805_C" H 6525 2600 50  0001 C CNN "Manf"
+	1    6525 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR060
+U 1 1 5F0314D4
+P 6050 2900
+F 0 "#PWR060" H 6050 2650 50  0001 C CNN
+F 1 "GND" H 6055 2727 50  0000 C CNN
+F 2 "" H 6050 2900 50  0001 C CNN
+F 3 "" H 6050 2900 50  0001 C CNN
+	1    6050 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR061
+U 1 1 5F03238B
+P 6525 2900
+F 0 "#PWR061" H 6525 2650 50  0001 C CNN
+F 1 "GND" H 6530 2727 50  0000 C CNN
+F 2 "" H 6525 2900 50  0001 C CNN
+F 3 "" H 6525 2900 50  0001 C CNN
+	1    6525 2900
+	1    0    0    -1  
+$EndComp
+Text Label 6050 2325 1    39   ~ 0
+3V3
+Text Label 6525 2325 1    39   ~ 0
+3V3
+Wire Wire Line
+	6050 2325 6050 2450
+Wire Wire Line
+	6050 2750 6050 2900
+Wire Wire Line
+	6525 2325 6525 2450
+Wire Wire Line
+	6525 2750 6525 2900
+Text Notes 4350 3450 0    50   ~ 0
+Route as matched\nlength 100R \ndifferential pairs
+Wire Notes Line
+	4350 2275 4350 3175
+Wire Notes Line
+	4350 3175 5000 3175
+Wire Notes Line
+	5000 3175 5000 2275
+Wire Notes Line
+	5000 2275 4350 2275
+Wire Notes Line
+	1025 975  1025 4150
+Wire Notes Line
+	1025 4150 3875 4150
+Wire Notes Line
+	3875 4150 3875 975 
+Wire Notes Line
+	3875 975  1025 975 
+Text Notes 1025 950  0    118  ~ 0
+CM CAM
+Wire Notes Line
+	4125 975  4125 4150
+Wire Notes Line
+	4125 4150 7300 4150
+Wire Notes Line
+	7300 4150 7300 975 
+Wire Notes Line
+	7300 975  4125 975 
+Text Notes 4100 950  0    118  ~ 0
+CAM Connector
+Text Label 5950 1400 2    50   ~ 0
+CAM1_SCL
+Text Label 5950 1300 2    50   ~ 0
+CAM1_SDA
+Text Label 5950 1500 2    50   ~ 0
+CAM1_IO1
+Text Label 5950 1600 2    50   ~ 0
+CAM1_IO0
+$Comp
+L Connector:Conn_01x15_Female CN8
+U 1 1 5F0604B0
+P 5500 2475
+F 0 "CN8" H 5400 1650 50  0000 C CNN
+F 1 "FPC15" V 5575 2475 50  0000 C CNN
+F 2 "Connector_FFC-FPC:TE_1-84952-5_1x15-1MP_P1.0mm_Horizontal" H 5500 2475 50  0001 C CNN
+F 3 "~" H 5500 2475 50  0001 C CNN
+F 4 "FPC 15 Connector" H 5500 2475 50  0001 C CNN "Manf"
+F 5 "TE_1-84952-5_1x15-1MP_P1.0mm_Horizontal" H 5500 2475 50  0001 C CNN "Manf#"
+	1    5500 2475
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5150 3175 5150 3325
+NoConn ~ 3000 6450
+NoConn ~ 3000 6300
+NoConn ~ 3000 6150
+NoConn ~ 3000 6000
+Wire Wire Line
+	3000 5100 3175 5100
+Wire Wire Line
+	3000 5250 3175 5250
+Wire Wire Line
+	3000 5400 3175 5400
+Wire Wire Line
+	3000 5550 3175 5550
+Wire Wire Line
+	3000 5700 3175 5700
+Wire Wire Line
+	3000 5850 3175 5850
+Wire Notes Line
+	1025 4575 1025 6900
+Wire Notes Line
+	1025 6900 3825 6900
+Wire Notes Line
+	3825 6900 3825 4575
+Wire Notes Line
+	3825 4575 1025 4575
+Text Notes 1000 4525 0    118  ~ 0
+CM Display
+$Comp
+L Device:R R24
+U 1 1 5ECB053A
+P 7950 2975
+F 0 "R24" H 7750 3050 50  0000 L CNN
+F 1 "2.2k" H 7725 2925 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7880 2975 50  0001 C CNN
+F 3 "~" H 7950 2975 50  0001 C CNN
+F 4 "0603_R" H 7950 2975 50  0001 C CNN "Manf"
+	1    7950 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 5ECB11CF
+P 8150 2975
+F 0 "R25" H 8220 3021 50  0000 L CNN
+F 1 "2.2k" H 8220 2930 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8080 2975 50  0001 C CNN
+F 3 "~" H 8150 2975 50  0001 C CNN
+F 4 "0603_R" H 8150 2975 50  0001 C CNN "Manf"
+	1    8150 2975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8325 3375 8150 3375
+Wire Wire Line
+	8150 3375 8150 3125
+Wire Wire Line
+	8325 3500 7950 3500
+Wire Wire Line
+	7950 3500 7950 3125
+Text Label 7950 2675 1    39   ~ 0
+3V3
+Wire Wire Line
+	7950 2825 7950 2675
+Text Label 8150 2675 1    39   ~ 0
+3V3
+Wire Wire Line
+	8150 2825 8150 2675
+Wire Notes Line
+	7500 2475 7500 3775
+Wire Notes Line
+	7500 3775 8975 3775
+Wire Notes Line
+	8975 3775 8975 2475
+Wire Notes Line
+	8975 2475 7500 2475
+Text Notes 7475 2400 0    118  ~ 0
+CAM/DIS I2C PU
+NoConn ~ 3175 5100
+NoConn ~ 3175 5250
+NoConn ~ 3175 5400
+NoConn ~ 3175 5550
+NoConn ~ 3175 5700
+NoConn ~ 3175 5850
+Text GLabel 6825 1400 2    50   Input ~ 0
+CAM_SCL
+Text GLabel 6825 1300 2    50   Input ~ 0
+CAM_SDA
+Text GLabel 6825 1500 2    50   Input ~ 0
+CAM_IO1
+Text GLabel 6825 1600 2    50   Input ~ 0
+CAM_IO0
+Wire Wire Line
+	5950 1300 6150 1300
+Wire Wire Line
+	5950 1400 6150 1400
+Wire Wire Line
+	5950 1500 6150 1500
+Wire Wire Line
+	5950 1600 6150 1600
+Wire Wire Line
+	6650 1300 6825 1300
+Wire Wire Line
+	6650 1400 6825 1400
+Wire Wire Line
+	6650 1500 6825 1500
+Wire Wire Line
+	6650 1600 6825 1600
+Text Label 8325 3500 0    50   ~ 0
+CAM1_SDA
+Text Label 8325 3375 0    50   ~ 0
+CAM1_SCL
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even JP3
+U 1 1 5FE5A071
+P 6350 1400
+F 0 "JP3" H 6400 1717 50  0000 C CNN
+F 1 "Cam Jpr" H 6400 1626 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 6350 1400 50  0001 C CNN
+F 3 "~" H 6350 1400 50  0001 C CNN
+F 4 "PinHeader_2x04 male" H 6350 1400 50  0001 C CNN "Manf"
+	1    6350 1400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

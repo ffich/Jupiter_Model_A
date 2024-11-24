@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name w_conn_pc)(type KiCad)(uri ${KISYSMOD}/mod_conn_pc/w_conn_pc.pretty)(options "")(descr ""))
+  (lib (name w_conn_misc)(type KiCad)(uri ${KISYSMOD}/mod_conn_misc/w_conn_misc.pretty)(options "")(descr ""))
+  (lib (name RPi_CM)(type KiCad)(uri "C:/Program Files/KiCad/share/kicad/modules/RPi_CM")(options "")(descr ""))
+  (lib (name FF_Connectors)(type KiCad)(uri D:/20_Local_Data/10_General/30_Libraries/10_Kicad/20_Modules/10_MyLibrarties/FF_Connectors.pretty)(options "")(descr ""))
+  (lib (name FF_Modules)(type KiCad)(uri D:/20_Local_Data/10_General/30_Libraries/10_Kicad/20_Modules/10_MyLibrarties/FF_Modules.pretty)(options "")(descr ""))
+)
