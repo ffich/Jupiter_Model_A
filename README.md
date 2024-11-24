@@ -1,7 +1,7 @@
 # Jupiter System
-The Jupiter System is a system developed to leverage SW capabilities of computational platform like Raspberry Pi and ESP8266/32, by designing a system with an high level of HW configurability and scalability. This allows to use the power of the existing SW ecosystem in conjunction with a modular and scalable HW system, so that the user can take benefits from both of them. This HW configurability and expandability is given by adopting built-in sockets for some common peripheral add-on’s standard. The selected standards are the Mikroelektronika MikroBUS, the SeedStudio Grove and the Sparkfun QWIIC, which are widely used and open standards for HW expandability. The adherence to those standards allows the Jupiter System boards to be able to connect to the various expansion and breakout boards currently available on the market. These boards contain various types of sensor, actuators and interfaces, allowing for a very high level of HW scalability and modularity.
+The Jupiter System is a system developed to leverage SW capabilities of Raspberry PI Compute Modules, by designing a system with an high level of HW configurability and scalability. This allows to use the power of the existing SW ecosystem in conjunction with a modular and scalable HW system, so that the user can take benefits from both of them. This HW configurability and expandability is given by adopting built-in sockets for some common peripheral add-on’s standard. The selected standards are the Mikroelektronika MikroBUS, the SeedStudio Grove and the Sparkfun QWIIC, which are widely used and open standards for HW expandability. The adherence to those standards allows the Jupiter System boards to be able to connect to the various expansion and breakout boards currently available on the market. These boards contain various types of sensor, actuators and interfaces, allowing for a very high level of HW scalability and modularity.
 
-In this perspective the Jupiter System acts like a bridge between the Raspberry Pi and ESP8266/32 SW and the HW world, allowing to take benefit from both the ecosystems.
+In this perspective the Jupiter System acts like a bridge between the Raspberry Pi SW and the HW world, allowing to take benefit from both the ecosystems.
 
 Examples of application fields of Jupiter System are:
 - Home automation System,
@@ -14,7 +14,7 @@ Examples of application fields of Jupiter System are:
 - Test benches,
 - Etc…
 
-![image](https://github.com/user-attachments/assets/9fe658ec-6561-4a8c-97cf-e48cfca2fae5)
+![Concpet_Rpi](https://github.com/user-attachments/assets/4f50c7ee-99d1-4e0b-86d8-68531f1a7dc0)
 
 
 # Jupiter Model A
@@ -48,3 +48,14 @@ More in details, the board is populated with:
 
 Additionally the board contains 4 MikroBUS Sockets that allow to interface with MikroBUS compatible devices, like the click boards.
 
+![HW Details](https://github.com/user-attachments/assets/bb3d812f-4de0-4efc-9f18-a8bb5bc2406e)
+
+# Examples of combination with Click Boards
+
+![Model_A_1](https://github.com/user-attachments/assets/0e7b0a4b-f9dd-4f82-bbbb-bc93b9b51a1b)
+
+![Model_A_2](https://github.com/user-attachments/assets/a3eb4d0b-5ce9-481d-ad64-b5e6420ba2ad)
+
+![Model_A_3](https://github.com/user-attachments/assets/03590b59-1ddd-4aab-b274-70e4af47f841)
+
+![Model_A_4](https://github.com/user-attachments/assets/a8c017a4-55c4-4226-9d34-a5bf99c5e708)
