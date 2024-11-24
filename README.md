@@ -46,7 +46,7 @@ More in details, the board is populated with:
 -	4x User LEDs
 -	2x User Buttons
 
-Additionally the board contains 4 MikroBUS Sockets that allow to interface with MikroBUS compatible devices, like the click boards.
+Additionally the board contains 4 MikroBUS Sockets that allow to interface with MikroBUS compatible devices, like the click boards, 2 Groove and 2 QWIIC connectors.
 
 ![HW Details](https://github.com/user-attachments/assets/bb3d812f-4de0-4efc-9f18-a8bb5bc2406e)
 
