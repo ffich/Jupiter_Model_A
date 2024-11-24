@@ -17,7 +17,7 @@ Examples of application fields of Jupiter System are:
 ![Concpet_Rpi](https://github.com/user-attachments/assets/4f50c7ee-99d1-4e0b-86d8-68531f1a7dc0)
 
 
-![Promo Video](https://www.youtube.com/watch?v=70Tqia20eaI)
+![image alt text](https://example.com/https://www.youtube.com/watch?v=70Tqia20eaI)
 
 # Jupiter Model A
 The Jupiter Model A is the desktop-version Jupiter board. It allows the user to experiment with the full potential of the Jupiter System. It's compatible with Raspberry CM3 and CM3+ (as the Raspberry Pi fundation does, we also strongly recommend to use CM3+ for newer design) and, among other peripherals, the board has 4 MikroBUS, 2 Grove and 2 Qwiic sockets that allow to create countless of combinations with Click, Grove or Qwiic slave devices.
